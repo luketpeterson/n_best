@@ -1,0 +1,14 @@
+[package]
+name = "n_best"
+version = "0.1.0"
+edition = "2021"
+authors = ["Luke Peterson <luke@infoplatter.com>"]
+license = "MIT OR Apache-2.0"
+description = "Convenient collection to gather the N highest elements, and discard the others"
+repository = "https://github.com/luketpeterson/n_best/"
+readme = "README.md"
+keywords = ["Sort", "Compare", "sort_by"]
+categories = ["rust-patterns", "algorithms", "data-structures"]
+
+[dependencies]
+ord_by = "0.1.1"
